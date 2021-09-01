@@ -5,6 +5,8 @@ import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import youtube from '../img/social/youtube.svg'
+import tiktok from '../img/social/tiktok.svg'
+import discord from '../img/social/discord.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -112,6 +114,20 @@ const Navbar = class extends React.Component {
                   <img
                     src={youtube}
                     alt="Youtube"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="tiktok" href="https://www.tiktok.com/@frc2053?">
+                  <img
+                    src={tiktok}
+                    alt="TikTok"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="discord" href="https://discord.gg/n5NHE9QMG2">
+                  <img
+                    src={discord}
+                    alt="Discord"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>

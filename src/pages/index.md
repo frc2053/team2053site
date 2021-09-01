@@ -1,50 +1,40 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Southern Tier Robotics
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Southern Tier Robotics
+subheading: Real world engineering through competitive robotics
 mainpitch:
-  title: Why Kaldi
+  title: What is Southern Tier Robotics?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Southern Tier Robotics is a member of the FIRST Organization that competes in the FIRST Robotics competition.
+    Each year we build a 120 pound robot to compete in a game at events across the US.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Our organization is focused on four core areas: Engineering, Learning, Community, and Competition.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/finger-guns.jpg
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        Engineering: Each year we push our robots to a higher level by using advanced
+        software, machining and design techniques using equipment we have in our shop.
+        With access to CNC Mills, Lathes, and other machines, this allows us to design
+        the most optimized parts for our robot easily.
     - image: /img/coffee-gear.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Learning: Our club is run by mentors from local engineering companies, as well
+        as teachers, and other adults. This allows students to get REAL, PRACTICAL, knowledge
+        about engineering tools. A lot of our students have been inspired about what they want
+        to do after highschool from our organization.
     - image: /img/tutorials.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Community: One of the goals of all FIRST teams is to spread the message of FIRST 
+        and promote STEAM throughout the community. We do outreach events such as visiting
+        local elementary and middle schools, doing fundraisers, and STEAM events.
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Competition: A huge part of the FIRST organization is competition. We strive to 
+        build a better robot than we did last year and win the events we go to. We have consistently
+        placed in the playoff brackets every year we have competed.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

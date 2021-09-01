@@ -21,7 +21,7 @@ export const IndexPageTemplate = ({
       style={{
         backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`,
-        backgroundPosition: `top left`,
+        backgroundPosition: `bottom 10%`,
         backgroundAttachment: `fixed`,
         backgroundColor: '#090909'
       }}
@@ -90,13 +90,13 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
-                      See all products
+                      Learn More
                     </Link>
                   </div>
                 </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                    Latest Blog Entries
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
@@ -177,7 +177,7 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 2048, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }

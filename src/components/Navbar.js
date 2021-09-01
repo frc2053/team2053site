@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
+import facebook from '../img/social/facebook.svg'
+import instagram from '../img/social/instagram.svg'
+import twitter from '../img/social/twitter.svg'
+import youtube from '../img/social/youtube.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -72,21 +76,46 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
             </div>
             <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
+              <div className="row is-5 social">
+                <a title="github" href="https://github.com/team2053tigertronics">
+                  <img
+                    src={github}
+                    alt="Github"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="facebook" href="https://www.facebook.com/FRC2053/">
+                  <img
+                    src={facebook}
+                    alt="Facebook"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="twitter" href="https://twitter.com/frc2053">
+                  <img
+                    className="fas fa-lg"
+                    src={twitter}
+                    alt="Twitter"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="instagram" href="https://www.instagram.com/frc2053/">
+                  <img
+                    src={instagram}
+                    alt="Instagram"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="youtube" href="https://www.youtube.com/channel/UCrbEBJ_u8P3P05n0RTWHjnA">
+                  <img
+                    src={youtube}
+                    alt="Youtube"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>

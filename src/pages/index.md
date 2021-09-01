@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Southern Tier Robotics
-image: /img/home-jumbotron.jpg
+image: /img/robot-header.jpg
 heading: Southern Tier Robotics
 subheading: Real world engineering through competitive robotics
 mainpitch:

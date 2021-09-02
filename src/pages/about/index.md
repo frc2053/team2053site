@@ -3,17 +3,20 @@ templateKey: 'about-page'
 path: /about
 title: About our organization
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Overview
+Southern Tier Robotics particpates in the FIRST Robotics Competition which is part the FIRST organization.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### What is FIRST?
+The mission of FIRST® is to inspire young people to be science and technology leaders and innovators, by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership ([firstinspires.org](https://www.firstinspires.org/about/vision-and-mission)). FIRST has multiple programs at each grade level Pre-K - 12th grade. The
+competition that Southern Tier Robotics participates in is called the FIRST Robotics Competition.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### What is the FIRST Robotics Competition?
+FIRST Robotics Competition allows students from grade 9-12 to compete in a game that changes each year. In January of each year, FIRST reveals the game that all other teams must compete in. Then for 6 weeks, students and mentors spend time
+designing, building, and programming a ~120 pound robot from scratch. After the robot is built, the team travels to different regional competitions and competes against other teams. The format of the game is 3v3, so teams get randomly paired
+up during the seeding matches. Then alliances are formed for the playoff matches with the top 8 teams selected other teams they want to pair up with. If you win the competition, you and your alliance members get invited to the world competition,
+where teams from all over the world come to compete.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### History
+The team was founded in 2007 under the name Tigertronics and operated out of Union Endicott High School. Throughout the years, our team has gain and lost mentors, seen students graduate high school and college, and join the workforce 
+(And some even come back to mentor the team). But most of all, our team's robot keep getting better and better each year. The FIRST Robotics Competition events were cancelled in 2020-2021 because of COVID, and the team decided to move
+the headquarters of the team to Vestal High School. During this transition, we decided to change the name to better reflect the multi school participation we have. You can see an overview of old robots [here](/gamehistory).

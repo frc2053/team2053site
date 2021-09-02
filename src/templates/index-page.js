@@ -89,8 +89,8 @@ export const IndexPageTemplate = ({
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      Learn More
+                    <Link className="btn" to="/gamehistory">
+                      See our previous robots!
                     </Link>
                   </div>
                 </div>

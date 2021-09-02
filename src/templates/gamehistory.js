@@ -13,6 +13,8 @@ export const GameHistoryTemplate = ({
   tags,
   title,
   helmet,
+  game_video_url,
+  robot_video_url
 }) => {
   const PostContent = contentComponent || Content
 
@@ -27,6 +29,18 @@ export const GameHistoryTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
+            {game_video_url ? (
+              <div style={{ marginTop: `4rem` }}>
+                <h3>Game Reveal Video</h3>
+                <iframe width="560" height="315" src={"https://www.youtube.com/embed/" + game_video_url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            ) : null}
+            {robot_video_url ? (
+              <div style={{ marginTop: `4rem` }}>
+                <h3>Robot Reveal Video</h3>
+                <iframe width="560" height="315" src={"https://www.youtube.com/embed/" + robot_video_url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            ) : null}
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -52,6 +66,8 @@ GameHistoryTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  game_video_url: PropTypes.string,
+  robot_video_url: PropTypes.string
 }
 
 const GameHistoryEntry = ({ data }) => {
@@ -74,6 +90,8 @@ const GameHistoryEntry = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        game_video_url={post.frontmatter.game_video_url}
+        robot_video_url={post.frontmatter.robot_video_url}
       />
     </Layout>
   )
@@ -97,6 +115,8 @@ export const pageQuery = graphql`
         title
         description
         tags
+        game_video_url
+        robot_video_url
       }
     }
   }

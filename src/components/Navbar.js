@@ -81,7 +81,7 @@ const Navbar = class extends React.Component {
             </div>
             <div className="navbar-end has-text-centered">
               <div className="row is-5 social">
-                <a title="github" href="https://github.com/team2053tigertronics">
+                <a title="github" href="https://github.com/frc2053">
                   <img
                     src={github}
                     alt="Github"

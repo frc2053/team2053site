@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/logo.svg'
+import logolong from '../img/logolong.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -9,9 +9,9 @@ const Footer = class extends React.Component {
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
           <img
-            src={logo}
+            src={logolong}
             alt="STR"
-            style={{ width: '14em', height: '10em' }}
+            style={{ width: '500em', height: '10em' }}
           />
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">

@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import RobotOverview from '../components/RobotOverview'
 
 export const GameHistoryTemplate = ({
   content,
@@ -29,6 +30,7 @@ export const GameHistoryTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
+            <RobotOverview name="TESTNAME" image="img/logo.svg" wins="54" losses="2" awards={["BIG AWARD", "HUGE AWARD"]} events={["PAVA", "MEME"]} />
             {game_video_url ? (
               <div style={{ marginTop: `4rem` }}>
                 <h3>Game Reveal Video</h3>

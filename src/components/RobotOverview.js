@@ -19,14 +19,14 @@ const RobotOverview = ({ name, image, wins, losses, awards, events }) => (
         <h5 style={{ textAlign: "center", marginBottom: "0" }}>
           Record: {wins} Wins - {losses} Losses
         </h5>
-        <hr className="solid" color="#E6E8E6" style={{ width: "50%" }}></hr>
+        <hr className="solid" color="#E6E8E6" style={{ width: "50%", margin: "auto", marginBottom: "20px" }}></hr>
         <h5 style={{ textAlign: "center", marginBottom: "0" }}>Events:</h5>
         {events.map((award, index) => (
           <div key={index}>
             <p style={{ textAlign: "center" }}>{award}</p>
           </div>
         ))}
-        <hr className="solid" color="#E6E8E6" style={{ width: "50%" }}></hr>
+        <hr className="solid" color="#E6E8E6" style={{ width: "50%", margin: "auto", marginBottom: "20px", marginTop: "20px" }}></hr>
         <h5 style={{ textAlign: "center", marginBottom: "0" }}>Awards:</h5>
         {awards.map((award, index) => (
           <div key={index}>

@@ -7,8 +7,8 @@ subheading: Real world engineering through competitive robotics
 mainpitch:
   title: What is Southern Tier Robotics?
   description: >
-    Southern Tier Robotics is a member of the FIRST Organization that competes in the FIRST Robotics competition.
-    Each year we build a 120 pound robot to compete in a game at events across the US.
+    Southern Tier Robotics is a member of the FIRST Organization located in Vestal, NY that competes in the FIRST Robotics competition.
+    Each year we build a robot to compete in a game at events across the US.
 description: >-
   Our organization is focused on four core areas: Engineering, Learning, Community, and Competition.
 intro:

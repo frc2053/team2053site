@@ -4,7 +4,7 @@ path: /about
 title: About our organization
 ---
 ### Overview
-Southern Tier Robotics particpates in the FIRST Robotics Competition which is part the FIRST organization.
+Southern Tier Robotics particpates in the FIRST Robotics Competition which is part of the FIRST organization. We are located in Vestal, NY.
 
 ### What is FIRST?
 The mission of FIRST® is to inspire young people to be science and technology leaders and innovators, by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership ([firstinspires.org](https://www.firstinspires.org/about/vision-and-mission)). FIRST has multiple programs at each grade level Pre-K - 12th grade. The

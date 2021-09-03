@@ -10,7 +10,8 @@ export default class GameHistoryIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
+            backgroundImage: `url('/img/our-robots.jpg')`,
+            backgroundPosition: "50% 50%",
           }}
         >
           <h1

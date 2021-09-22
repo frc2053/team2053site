@@ -23,7 +23,7 @@ export const IndexPageTemplate = ({
           })`,
         backgroundPosition: `bottom 10%`,
         backgroundAttachment: `fixed`,
-        backgroundColor: '#090909'
+        backgroundColor: '#FFFFFF'
       }}
     >
       <div
@@ -40,9 +40,9 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              'rgb(233, 0, 79) 0.5rem 0px 0px, rgb(233, 0, 79) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(233, 0, 79)',
-            color: '#E6E8E6',
+              'rgb(70, 0, 170) 0.5rem 0px 0px, rgb(70, 0, 170) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(70, 0, 170)',
+            color: '#FFFFFF',
             lineHeight: '1',
             padding: '0.25em',
           }}
@@ -53,9 +53,9 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
-              'rgb(233, 0, 79) 0.5rem 0px 0px, rgb(233, 0, 79) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(233, 0, 79)',
-            color: '#E6E8E6',
+              'rgb(70, 0, 170) 0.5rem 0px 0px, rgb(70, 0, 170) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(70, 0, 170)',
+            color: '#FFFFFF',
             lineHeight: '1',
             padding: '0.25em',
           }}

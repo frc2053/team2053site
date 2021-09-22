@@ -17,9 +17,9 @@ export default class GameHistoryIndexPage extends React.Component {
           <h1
             className="has-text-weight-bold is-size-1"
             style={{
-              boxShadow: '0.5rem 0 0 rgb(233, 0, 79), -0.5rem 0 0 rgb(233, 0, 79)',
-              backgroundColor: 'rgb(233, 0, 79)',
-              color: '#E6E8E6',
+              boxShadow: '0.5rem 0 0 rgb(70, 0, 170), -0.5rem 0 0 rgb(70, 0, 170)',
+              backgroundColor: 'rgb(70, 0, 170)',
+              color: '#FFFFFF',
               padding: '1rem',
             }}
           >
